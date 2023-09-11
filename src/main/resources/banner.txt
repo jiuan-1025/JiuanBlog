@@ -1,0 +1,30 @@
+${AnsiColor.BRIGHT_BLACK}
+____________________________________________
+    _____
+    /    )    ,                     /
+---/----/---------_--_-------__----/-----__-
+  /    /    /    / /  )    /   )  /    /___)
+_/____/____/____/_/__/____/___/__/____(___ _
+                         /
+                        /
+Spring Boot Version: ${spring-boot.version}
+Project Version: ${DimpleBlog.version}
+____________________________________________
+Todo:
+一 | 前端代码
+1. 文章页面(代码高亮,代码复制,折叠,展开)
+2. 轮播图
+3. 公告
+4. 评论功能
+
+二 | 后端代码
+1. config 缓存,重新设计缓存key分组;
+2. 抽离为多模块
+3. 前台菜单抽离为可配置
+--------------------------------------------
+bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException:
+You have an error in your SQL syntax; check the manual that corresponds
+to your MySQL server version for the right syntax to use near ')values(
+         '1620230508122714',
+         'jiuanblog01',
+         '89.44K' at line 10]
